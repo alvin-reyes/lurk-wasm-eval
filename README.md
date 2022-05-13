@@ -3,6 +3,7 @@
 ## Pre-requisites
 - [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) or [npm](https://nodejs.org/en/download/package-manager/)
 - [webpack](https://webpack.js.org/guides/installation/)
+- [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
 
 ## Install webpack using `yarn` and `npm`
 ```

@@ -25,5 +25,5 @@ Go to [localhost:8080](http://localhost:8080) to view the evaluator
 
 ![img.png](img.png)
 
-## Live Demo (temp)
-[wasm-eval](http://68.183.199.240:8081/)
+## Live Demo
+[wasm-eval](https://wasm-eval.lurk-lang.org/)

@@ -20,7 +20,7 @@
     "webpack"
   ],
   "dependencies": {
-    "lurk-rs": "file:../pkg"
+    "lurk-rs": "file:../lurk-rs-pkg"
   },
   "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "^1.6.0",

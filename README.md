@@ -23,7 +23,7 @@ yarn start
 ## Test
 Go to [localhost:8080](http://localhost:8080) to view the evaluator
 
-![img.png](img.png)
+<img width="1341" alt="image" src="https://user-images.githubusercontent.com/4479171/186725814-c38c2567-e036-42c6-880c-ca11165596de.png">
 
 ## Live Demo
 [wasm-eval](https://wasm-eval.lurk-lang.org/)

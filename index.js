@@ -1,4 +1,6 @@
 import * as wasm from "lurk-rs";
+import { runLurkEvaluator } from "./eval.js";
+
 var output = document.getElementById("output");
 var status = document.getElementById("status");
 
@@ -25,7 +27,7 @@ runit.onclick = function (_e) {
     var source = input.value;
     console.log("running: " + source);
 
-    const out = wasm.run_lurk(source);
+    const out = runLurkEvaluator(source);
     const obj = JSON.parse(out);
     setStatus(obj.iterations);
     show(obj.result);

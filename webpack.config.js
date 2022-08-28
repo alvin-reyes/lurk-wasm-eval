@@ -5,7 +5,7 @@ import WasmPackPlugin from "@wasm-tool/wasm-pack-plugin";
 
 export default function(env, argv) {
   return {
-    entry: "./index.js",
+    entry: ["./index.js", "./eval.js"],
     output: {
       path: path.resolve("./dist/" + (env.release ? "production" : "development")),
       filename: "index.js",

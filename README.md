@@ -27,3 +27,18 @@ Go to [localhost:8080](http://localhost:8080) to view the evaluator
 
 ## Live Demo
 [wasm-eval](https://wasm-eval.lurk-lang.org/)
+
+# Build as a library
+Run the following to build the distributable library:
+
+## Development
+```
+./build-development.sh
+```
+
+## Production
+```
+./build-production.sh
+```
+
+Copy the dist/environment to your project.

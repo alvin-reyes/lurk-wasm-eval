@@ -1,9 +1,11 @@
-# Example Lurk in browser with wasm
+# Lurk Web Component 
 
 ## Prerequisites
 - [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) or [npm](https://nodejs.org/en/download/package-manager/)
 - [webpack](https://webpack.js.org/guides/installation/)
 - [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
+
+# Build Web Component
 
 ## Install webpack using `yarn` and `npm`
 ```
@@ -28,7 +30,8 @@ Go to [localhost:8080](http://localhost:8080) to view the evaluator
 ## Live Demo
 [wasm-eval](https://wasm-eval.lurk-lang.org/)
 
-# Build as a library
+
+# Build Web library
 Run the following to build the distributable library:
 
 ## Development
@@ -42,6 +45,8 @@ Run the following to build the distributable library:
 ```
 
 Copy the dist/environment to your project.
+
+![image](https://user-images.githubusercontent.com/4479171/188166135-fb5e1ee2-d976-48af-8ed8-e7054f2ceb71.png)
 
 ## Usage
 ```

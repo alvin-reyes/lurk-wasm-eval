@@ -42,3 +42,13 @@ Run the following to build the distributable library:
 ```
 
 Copy the dist/environment to your project.
+
+## Usage
+```
+<script src="./index.js"></script>
+
+<script type="text/javascript">
+    const lurkEval = await window.lurk;
+    lurkEval.runLurkEvaluator("<expression>"); 
+</script>
+```

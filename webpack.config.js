@@ -3,12 +3,14 @@ import webpack from "webpack";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 import WasmPackPlugin from "@wasm-tool/wasm-pack-plugin";
 
+
 export default function(env, argv) {
   return {
-    entry: ["./index.js", "./eval.js"],
+    entry: ["./index.js"],
     output: {
       path: path.resolve("./dist/" + (env.release ? "production" : "development")),
       filename: "index.js",
+      library: "lurk",
     },
     mode: "development",
     plugins: [

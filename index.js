@@ -6,21 +6,22 @@ export function runLurkEvaluator(lurkExpression) {
 }
 
 export function saveLurkExpressionInput(key, lurkExpression){
-    console.log("saving: " + key + " " + lurkExpression);
+    localStorage.setItem(key+"_input", lurkExpression);
 }
 
 export function saveLurkExpressionInputOutput(key, lurkExpressionInput, lurkExpressionOutput){
-    console.log("saving: " + key + " " + lurkExpressionInput + " " + lurkExpressionOutput);
+    localStorage.setItem(key+"_input", lurkExpressionInput);
+    localStorage.setItem(key+"_output", lurkExpressionInput);
 }
 
 export function retrieveLurkExpressionByKey(key) {
-    console.log("retrieveLurkExpressionByKey: " + key);
+    return  localStorage.getItem(key+"_input");
 }
 
 export function retrieveLurkExpressionInputByKey(key) {
-    console.log("retrieveLurkExpressionInputByKey: " + key);
+    return  localStorage.getItem(key+"_input");
 }
 
 export function retrieveLurkExpressionOutputByKey(key) {
-    console.log("retrieveLurkExpressionOutputByKey: " + key);
+    return localStorage.getItem(key+"_output");
 }
